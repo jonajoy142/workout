@@ -1,5 +1,6 @@
 // login user
 const User = require('../models/userModel')
+const validator = require('validator')
 
 const loginUser = async(req,res)=>{
     res.json({mssg:'login user'})
